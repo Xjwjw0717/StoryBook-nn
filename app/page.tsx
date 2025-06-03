@@ -72,18 +72,18 @@ export default function Homepage() {
               </div>
             </div>
 
-            {/* 主标题 - 更可爱童趣的字体 */}
+            {/* 主标题 - 修复显示问题的艺术可爱字体 */}
             <div className="relative mb-6">
-              <h1 className="text-4xl md:text-6xl font-black tracking-wider text-transparent bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 bg-clip-text transform -rotate-1 mb-3 relative">
-                给小宝贝们
+              <h1 className="text-5xl md:text-7xl font-black tracking-wider text-transparent bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 bg-clip-text transform -rotate-1 mb-2 relative">
+                为你的孩子
                 {/* 装饰性星星 */}
-                <span className="absolute -top-3 -right-3 text-yellow-400 animate-pulse text-xl">🌟</span>
+                <span className="absolute -top-4 -right-4 text-yellow-400 animate-pulse text-2xl">⭐</span>
               </h1>
               <h1 className="text-5xl md:text-7xl font-black tracking-wider text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text transform rotate-1 relative">
-                编织梦幻故事绘本
+                创作专属故事绘本
                 {/* 装饰性爱心和闪光 */}
-                <span className="absolute -top-5 -left-5 text-pink-400 animate-bounce text-2xl">💕</span>
-                <span className="absolute -bottom-2 -right-6 text-purple-400 animate-pulse text-2xl">🎨</span>
+                <span className="absolute -top-6 -left-6 text-pink-400 animate-bounce text-2xl">💖</span>
+                <span className="absolute -bottom-2 -right-8 text-purple-400 animate-pulse text-2xl">✨</span>
               </h1>
 
               {/* 添加可爱的装饰边框 */}
@@ -94,13 +94,13 @@ export default function Homepage() {
             {/* 可爱的副标题 */}
             <div className="flex items-center justify-center gap-2 mb-6 flex-wrap">
               <Rainbow className="w-6 h-6 text-pink-400" />
-              <p className="text-xl md:text-2xl text-gray-700 font-bold">🌈 让小小想象力变成大大的魔法故事 🌈</p>
+              <p className="text-xl md:text-2xl text-gray-700 font-bold">✨ 让想象力飞翔，创造属于你的魔法故事 ✨</p>
               <Rainbow className="w-6 h-6 text-purple-400" />
             </div>
 
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium">
-              🎪 只要说出你的小想法，AI魔法师就能变出超级棒的故事绘本！
-              <br />🎭 还有美美的图画和甜甜的声音陪伴哦～
+              🌟 只需要一个小小的想法，AI魔法师就能为你创作出超棒的故事绘本！
+              <br />📚 配有美美的图片和温柔的声音哦～
             </p>
           </div>
 
